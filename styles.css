@@ -156,28 +156,28 @@ body {
   background: #fcfcfc;
   color: #545454;
   text-rendering: optimizeLegibility;
-  font-family: "AvenirNext-Regular", sans;
+  font-family: "AvenirNext-Regular", Sans-Serif;
 }
 a {
   color: #de4c4f;
   text-decoration: none;
 }
 h1 {
-  font-family: "AvenirNext-Medium", sans;
+  font-family: "AvenirNext-Medium", Sans-Serif;
   color: #333;
   font-size: 1.6em;
   line-height: 1.3em;
   margin-bottom: 0.78571em;
 }
 h2 {
-  font-family: "AvenirNext-Medium", sans;
+  font-family: "AvenirNext-Medium", Sans-Serif;
   color: #333;
   font-size: 1.3em;
   line-height: 1em;
   margin-bottom: 0.62857em;
 }
 h3 {
-  font-family: "AvenirNext-Medium", sans;
+  font-family: "AvenirNext-Medium", Sans-Serif;
   color: #333;
   font-size: 1.15em;
   line-height: 1em;
@@ -217,11 +217,11 @@ ol li:before {
 }
 b,
 strong {
-  font-family: "AvenirNext-Bold";
+  font-family: "AvenirNext-Bold" Sans-Serif;
 }
 i,
 em {
-  font-family: "AvenirNext-Italic";
+  font-family: "AvenirNext-Italic" Sans-Serif;
 }
 code {
   font-family: "Menlo-Regular", monospace;
