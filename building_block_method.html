@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Karsten Economou - Building Block Method</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://karsteneconomou.com/blog/building_block_method" />
+    <meta property="og:title" content="The Building Block Method of Learning" />
+    <meta property="og:image" content="https://karsteneconomou.com/assets/images/logo.png" />
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://karsteneconomou.com/blog/building_block_method">
+    <meta property="twitter:title" content="The Building Block Method of Learning">
+    <meta property="twitter:image" content="https://karsteneconomou.com/assets/images/logo.png">
+    <meta property="theme-color" content="#e06d72">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+</head>
+    <body>
+        <div class="note-wrapper">
+            <h1 id="The Building Block Method of Learning">The Building Block Method of Learning</h1>
+<p>I have no desire to preach epistemology. I did, however, want to share an approach to learning that is particularly useful when tackling independent projects that I feel is unfairly overlooked: jumping straight in.</p>
+<br>
+<h2 id="Methodology">Methodology</h2>
+<p>I have been using this approach internally labelled as the “building block method” since my youth. In many ways, it is an application of systems thinking — more specifically, Guru Madhavan’s “modular systems thinking.” </p>
+<br>
+<p>It works very simply:</p>
+<ol start="1"><li>Identify the end goal.
+</li><li>Begin work.
+</li></ol>
+<br>
+<p>Note that there is no “identify your current knowledge base” step or anything of the sort. That is because <i>you already know where you stand in relation to a topic</i>. The education I’ve received in engineering design focuses on generating massive lists, mind maps, and doodles purely for pageantry’s sake. While this is more relevant in industry work where there are budgets, clients, and large teams, it is an ineffective process for independent, low-stakes learning.</p>
+<br>
+<p><b>The “blank page” is the enemy, not your own skill set.</b> By beginning a project right away and learning as you go, you are giving yourself the opportunity to fully understand how and when to <i>implement a feature of your problem-solving toolkit that isn’t even in it yet</i> by organically encountering a need for it.</p>
+<br>
+<h2 id="Application">Application</h2>
+<p>Let me move off this level of abstraction and generality to an example. My first Python program, nay, my first ever program, is <a href="https://github.com/KarstenEconomou/terminal-games/blob/main/bigger-smaller.py">available on GitHub</a>. I knew nothing about programming prior to this, but set out to create a simple hot-or-cold style number guess game.</p>
+<br>
+<p>To see the task through, I had to put together many “building blocks.” Building blocks, or tools, are answers to questions you ask to get from one point to the next. To start off with, I had to put together very simple building blocks:</p>
+<ul><li>How do I message the user?
+</li><li>How do I record the user’s input?
+<ul><li>	What’s a variable?
+</li></ul></li><li>How do I generate random numbers?
+<ul><li>	What’s a library?
+</li></ul>
+</li></ul>
+<br>
+<p>As I had progressed, the building blocks grew in complexity:</p>
+<ul><li>How do I restart the game?
+<ul><li>	What’s a function?
+</li><li>	What’s  <code class='code-inline'>if __name__ == “__main__”:</code>?
+</li></ul></li><li>How would I store previous inputs?
+<ul><li>	What’s a list?
+</li></ul></li><li>How can I access all the meta-information of the game?
+<ul><li>	What’s a dictionary?
+</li></ul>
+</li></ul>
+<br>
+<p>If I were to program this game again now, I’m sure it would be more sophisticated and likely object-oriented. Regardless, I had learned an incredible amount in treating the project this way, and the project itself became a building block for use in future projects.</p>
+<br>
+<h2 id="Comparison">Comparison</h2>
+<p>What are the advantages and disadvantages of the building block approach relative to any of the variations of the more conventional “amass knowledge and then apply it” approach?</p>
+<br>
+<h3 id="Advantages">Advantages</h3>
+<p>The things that the building block method allows you to do are listed below. Note my language choice: part of what the building block method is all about is <i>allowing you to do something</i>.</p>
+<br>
+<ol start="1"><li>You can get started immediately.
+</li></ol>
+<br>
+<p>This is a big deal. Capitalizing on a spurt of ambition is crucial in an independent project, where there are no deadlines or external motivation factors. Alternatively, exploring something you are interested in but don’t want to commit time before being able to start.</p>
+<br>
+<ol start="2"><li>You learn first-hand where a tool is needed, allowing the effective application of said tool in the future.
+</li></ol>
+<br>
+<p>Effectively, you are merely adding tools to your toolkit. The advantage here, however, is that you have already experienced the situation in which a tool was needed. To continue the metaphor, you know the right tool for the job.</p>
+<br>
+<p>This is important, yes, but it’s most important when the task is more complex and requires several tools working together in a system. This is where the modular systems thinking parallel comes in. The idea is that your intuition will be strong enough to correctly guide you in the right direction to simplify the situation. This shows that the building block method is not just for getting a glimpse of something — its scope scales.</p>
+<br>
+<h3 id="Disadvantages">Disadvantages</h3>
+<p>The two potential disadvantages of this method are symptoms of going into the project blind — depending on the situation, this can be a perfectly good reason to approach a project using a different method.</p>
+<br>
+<ol start="1"><li>It can be overwhelming.
+</li></ol>
+<br>
+<p>Without patience and self-confidence, the building block approach can be daunting. This is why it is important to break each building block into as many smaller building blocks as possible.</p>
+<br>
+<ol start="2"><li>It can be more time-consuming than expected.
+</li></ol>
+<br>
+<p>In some situations, this approach takes more time than what was expected if the constituent systems of the project are more complex than anticipated. </p>
+<br>
+<h2 id="Use Cases">Use Cases</h2>
+<p>Having discussed the advantages and disadvantages to using the building block method, some criteria for a project’s nature that make the method a good fit are apparent:</p>
+<ul><li>It is an independent project.
+</li><li>Going in blind (that is, with advanced knowledge of the endpoint but not of intermediate steps) is acceptable — there are no potential safety, ethical, or monetary concerns associated.
+</li><li>There is guaranteed to be a sufficient period of time (potentially infinite) between the beginning and end of the project.
+</li></ul>
+<br>
+<p>If these criteria are not met, it would be better to approach the project in a traditional way that focuses on careful preparation before beginning.</p>
+<br>
+<p><b>The best use of the building block method is on something you are interested in, but are not necessarily sure you are willing to commit time into required pre-requisite learning before beginning.</b></p>
+<br>
+<p>It is important to note that the definition of the term “project” is not rigorous here. I have applied the building block method to learning chess with great success. In this case, “understanding the Trompowsky Attack” was a perfectly acceptable “project” end goal that involved learning many possible defences, alternative lines, and bits of chess opening theory, all of which are useful to further learning. Did this method make me a chess GM? Nothing will immediately, but with the building block approach I got to jump straight in and learn something about chess, and the building blocks I collected in the process can be reused or built upon further.</p>
+<br>
+<h2 id="Conclusion">Conclusion</h2>
+<p>Being able to learn by applying the building block method to complete a project comes with some great benefits, but is ultimately limited in suitable applications. That being said, it is an ideal method for independently learning programming, mathematics, animation, video editing, music, etc. These subjects are where I tend to apply it most — in fact, I had first applied it when learning guitar.</p>
+<br>
+<p>Everybody learns differently, and everybody should change how they learn depending on the subject matter — becoming a better learner is the best way to become smarter. The building block method is extremely powerful in the right contexts. I hope you are able to apply it to learn something you felt would have too much preparation work or pre-requisite learning required to start.</p>
+<br>
+<p><a href="https://karsteneconomou.com">Return to home</a> / <a href="https://karsteneconomou.com/blog">blog</a>.</p>
+        </div>
+        <script type="text/javascript">
+            (function() {
+
+    var doc_ols = document.getElementsByTagName("ol");
+
+    for ( i=0; i<doc_ols.length; i++) {
+
+        var ol_start = doc_ols[i].getAttribute("start") - 1;
+        doc_ols[i].setAttribute("style", "counter-reset:ol_counter " + ol_start + ";");
+
+    }
+
+})();
+
+        </script>
+    </body>
+</html>
