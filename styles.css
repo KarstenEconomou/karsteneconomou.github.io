@@ -218,10 +218,12 @@ ol li:before {
 b,
 strong {
   font-family: "AvenirNext-Bold" Sans-Serif;
+  font-weight: bold;
 }
 i,
 em {
   font-family: "AvenirNext-Italic" Sans-Serif;
+  font-style: italic;
 }
 code {
   font-family: "Menlo-Regular", monospace;
@@ -413,7 +415,7 @@ blockquote {
 }
 .color-code {
   margin-right: 0.2em;
-  font-family: "Menlo-Regular";
+  font-family: "Menlo-Regular", monospace;
   font-size: 0.9em;
 }
 .color-hash {
